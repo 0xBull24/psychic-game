@@ -1,0 +1,29 @@
+/* Page Reset */
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Align everything in center */
+.page-content > * {
+  text-align: center;
+}
+
+/* Footer Rules */
+footer {
+  position: fixed;
+  bottom: 0;
+  float: left;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+  background-color: #aaaaaa;
+  border-top: 3px solid black;
+}
+
+footer > * {
+  margin: 10px;
+}
+
+
